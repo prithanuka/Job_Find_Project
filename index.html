@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Find | Find Your Dream Job</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-------  CUSTOM CSS LINK  ------>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-------  FONTAWESOME LINK  ------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbox">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+          </div>
+          <div class="navbar">
+            <ul class="navlinks">
+              <li><a href="index.html" class="cmn active no-hover">Home</a></li>
+              <li><a href="joblist.html" class="cmn" >Job list</a></li>
+              <li><a href="contact.html" class="cmn" >Contact</a></li>
+              <li><a href="jobapply.html" class="cmn" >Apply</a></li>
+            </ul>
+          </div>
+
+          <!------------------   Toggle Menu   --------------------->
+          <div class="hamburger" id="hamburger">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
+          <!---------------------------------------------------------->
+          
+          <div class="signup">
+            <a href="account.html" class="usericon"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="register.html" target="_blank" class="register">Register</a>
+            <a href="account.html" target="_blank" class="login">Login</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <section class="hero">
+          <div class="container hero-content">
+            <div class="row"> 
+            <div class="col60">
+            <div class="card card1">
+              <h1>Find your <span>dream job</span> here easily and quickly.</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Tellus ut gravida faucibus
+                quam aliquet. Egestas scelerisque nec gravida volutpat maecenas
+                tempor.
+              </p>
+              <div class="jobsearch">
+                <form name="findjob" action="#" method="post">
+                  <div class="searchdata">
+                    <div class="search">
+                      <label for="companyname"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></label>
+                      <input
+                        type="text"
+                        id="companyname"
+                        name="companyname"
+                        placeholder=" Job title or company"
+                      />
+                    </div>
+                    <div class="country">
+                      <label for="countryname"
+                        ><img src="images/country.png" alt="country flag"
+                      /></label>
+                      <select id="countryname" name="countryname">
+                        <option value="select country">Select Country</option>
+                        <option value="africa">Africa</option>
+                        <option value="china">China</option>
+                        <option value="france">France</option>
+                        <option value="india">India</option>
+                        <option value="japan">Japan</option>
+                        <option value="usa">USA</option>
+                      </select>
+                    </div>
+                  </div>
+				  
+                  <div class="search-btn">
+                    <a href="#" class="searchjob">Search</a>
+                  </div>
+				 
+                </form>
+				
+              </div>
+            </div>
+            </div>
+            <div class="col40">
+				<div class="card card2">
+				  <img src="images/hero.png" alt="circle" />
+				</div>
+            </div>
+            </div> 
+          </div>
+          
+        </section>
+
+         <section class="jobapply">
+          <div class="applyprocess">
+            <div class="row">
+              <div class="col33">
+                <div class="card">
+                  <a href="#" class="image">
+                    <img src="images/frame1.png" alt="" />
+                  </a>
+                  <p>Register your account</p>
+                </div>
+              </div>
+              <div class="col33">
+                <div class="card">
+                  <a href="#" class="image">
+                    <img src="images/frame2.png" alt="" />
+                  </a>
+                  <p>Upload your resume</p>
+                </div>
+              </div>
+              <div class="col33">
+                <div class="card">
+                  <a href="#" class="image">
+                    <img src="images/frame3.png" alt="" />
+                  </a>
+                  <p>Apply for dream job</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <section class="category">
+          <div class="container">
+            <div class="content-above">
+              <h2>Choose your <span>desired</span> category</h2>
+              <a href="#">View all<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="row row1">
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector1.png" alt="Technical support" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Technical Support</a></h4>
+                    <span>58 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector2.png" alt="Business development" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Business Development</a></h4>
+                    <span>48 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector3.png" alt="Real estate business" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Real Estate Business</a></h4>
+                    <span>33 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector4.png" alt="Share market analysis" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Share Market Analysis</a></h4>
+                    <span>39 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row2">
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img
+                        src="images/Vector5.png"
+                        alt="Finance & Banking Service"
+                      />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Finance & Banking Service</a></h4>
+                    <span>38 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector6.png" alt="Home Delivery Services" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Home Delivery Services</a></h4>
+                    <span>85 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector7.png" alt="Restaurant Services" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Restaurant Services</a></h4>
+                    <span>48 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col25">
+                <div class="card">
+                  <div class="fig">
+                    <figure>
+                      <img src="images/Vector8.png" alt="Defence & Fire Service" />
+                    </figure>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Defence & Fire Service</a></h4>
+                    <span>15 Jobs Available</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="popular">
+          <div class="container">
+            <div class="row">
+              <div class="col50">
+                <div class="card card1">
+                  <img src="images/popular.png" alt="popular section image" />
+                </div>
+              </div>
+              <div class="col50">
+                <div class="card card2">
+                  <div>
+                    <h2>Why we are <span>most popular</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                      faucibus quam aliquet. Egestas scelerisque nec gravida
+                      volutpat maecenas tempor.
+                    </p>
+
+                    <div class="features">
+                      <div class="feature">
+                        <div class="fig">
+                          <figure>
+                            <img src="images/feature1.png" alt="Quality Job" />
+                          </figure>
+                        </div>
+                        <div class="content">
+                          <span>Quality Job</span>
+                        </div>
+                      </div>
+                      <div class="feature">
+                        <div class="fig">
+                          <figure>
+                            <img src="images/feature2.png" alt="Top Companies" />
+                          </figure>
+                        </div>
+                        <div class="content">
+                          <span>Top Companies</span>
+                        </div>
+                      </div>
+                      <div class="feature">
+                        <div class="fig">
+                          <figure>
+                            <img src="images/feature3.png" alt="No Extra Charge" />
+                          </figure>
+                        </div>
+                        <div class="content">
+                          <span>No Extra Charge</span>
+                        </div>
+                      </div>
+                      <div class="feature">
+                        <div class="fig">
+                          <figure>
+                            <img
+                              src="images/feature4.png"
+                              alt="International Job"
+                            />
+                          </figure>
+                        </div>
+                        <div class="content">
+                          <span>International Job</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <section class="companies">
+          <div class="container">
+            <div class="content-above">
+              <div class="topcontent">
+                <h2>Top <span>Companies</span></h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Tellus ut gravida faucibus
+                  quam aliquet. Egestas scelerisque nec gravida volutpat maecenas
+                  tempor.
+                </p>
+              </div>
+              <a href="#">View all<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="topcompanies">
+              <div class="company-card">
+                <div class="company">
+                  <div class="brand">
+                    <img src="images/brand1.png" alt="Company logo" />
+                  </div>
+                  <div class="compinfo">
+                    <span class="h3-heading">Tech-Bath Company</span>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>Wellesley Rd, London
+                      </li>
+                      <li><i class="fa-solid fa-filter"></i>Marketing</li>
+                      <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vacancy">
+                  <span>Vacancies: 23</span>
+                  <a href="#" class="apply">Apply</a>
+                </div>
+              </div>
+              <div class="company-card">
+                <div class="company">
+                  <div class="brand">
+                    <img src="images/brand2.png" alt="Company logo" />
+                  </div>
+                  <div class="compinfo">
+                    <span class="h3-heading">Norland Company</span>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>West Sight, USA
+                      </li>
+                      <li><i class="fa-solid fa-filter"></i>Graphics</li>
+                      <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vacancy">
+                  <span>Vacancies: 50</span>
+                  <a href="#" class="apply">Apply</a>
+                </div>
+              </div>
+              <div class="company-card">
+                <div class="company">
+                  <div class="brand">
+                    <img src="images/brand3.png" alt="Company logo" />
+                  </div>
+                  <div class="compinfo">
+                    <span class="h3-heading">Bistro.Hub Ltd</span>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>Street 40/A, London
+                      </li>
+                      <li><i class="fa-solid fa-filter"></i>Data Entry</li>
+                      <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vacancy">
+                  <span>Vacancies: 32</span>
+                  <a href="#" class="apply">Apply</a>
+                </div>
+              </div>
+              <div class="company-card">
+                <div class="company">
+                  <div class="brand">
+                    <img src="images/brand4.png" alt="Company logo" />
+                  </div>
+                  <div class="compinfo">
+                    <span class="h3-heading">Amd Company</span>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>Wellesley Rd, London
+                      </li>
+                      <li><i class="fa-solid fa-filter"></i>Marketing</li>
+                      <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vacancy">
+                  <span>Vacancies: 20</span>
+                  <a href="#" class="apply">Apply</a>
+                </div>
+              </div>
+              <div class="company-card">
+                <div class="company">
+                  <div class="brand">
+                    <img src="images/brand5.png" alt="Company logo" />
+                  </div>
+                  <div class="compinfo">
+                    <span class="h3-heading">German Group Ltd</span>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>Zns Rd, London
+                      </li>
+                      <li><i class="fa-solid fa-filter"></i>Accountancy</li>
+                      <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vacancy">
+                  <span>Vacancies: 40</span>
+                  <a href="#" class="apply">Apply</a>
+                </div>
+              </div>
+              <div class="company-card">
+                <div class="company">
+                  <div class="brand">
+                    <img src="images/brand6.png" alt="Company logo" />
+                  </div>
+                  <div class="compinfo">
+                    <span class="h3-heading">UI/UX Company Ltd</span>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>San Fransisco,
+                        California
+                      </li>
+                      <li><i class="fa-solid fa-filter"></i>Development</li>
+                      <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="vacancy">
+                  <span>Vacancies: 27</span>
+                  <a href="#" class="apply">Apply</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <section class="testimonials">
+          <div class="feed-container">
+            <div class="container">
+                <h2>What our <span>Clients</span> says</h2>
+                <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-content">
+                            <figure>
+                            <img src="images/client.png" alt="client's image" />
+                            </figure>
+                            <h4>Jenny Firdous</h4>
+                            <ul>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            </ul>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                            faucibus quam aliquet. Egestas scelerisque nec gravida
+                            volutpat maecenas tempor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-content">
+                            <figure>
+                            <img src="images/client.png" alt="client's image" />
+                            </figure>
+                            <h4>Jenny Firdous</h4>
+                            <ul>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            </ul>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                            faucibus quam aliquet. Egestas scelerisque nec gravida
+                            volutpat maecenas tempor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-content">
+                            <figure>
+                            <img src="images/client.png" alt="client's image" />
+                            </figure>
+                            <h4>Jenny Firdous</h4>
+                            <ul>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            </ul>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                            faucibus quam aliquet. Egestas scelerisque nec gravida
+                            volutpat maecenas tempor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-content">
+                            <figure>
+                            <img src="images/client.png" alt="client's image" />
+                            </figure>
+                            <h4>Jenny Firdous</h4>
+                            <ul>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            <li><i class="fa-solid fa-star checked"></i></li>
+                            </ul>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                            faucibus quam aliquet. Egestas scelerisque nec gravida
+                            volutpat maecenas tempor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="newsletter newsletter1">
+            <div class="container">
+                <h2>Subscribe our newsletter for the daily update</h2>
+                <div class="subscription">
+                  <form name="subscribe" action="#" method="most">
+                    <label for="email" class="hidden">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email.....">
+                    <input type="submit" value="subscribe">
+                  </form>
+                </div>
+            </div>
+        </section>    
+
+    </main>
+     <footer class="footer">
+        <div class="container footer-top">
+            <div class="row">
+
+                <div class="col-45">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/footer-logo.png" alt="logo" /></a>
+                    </div>
+                    <span class="span">Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                        faucibus quam
+                        aliquet.
+                        Egestas
+                        scelerisque nec gravida volutpat maecenas tempor. 
+                    </span>
+                    <div class="form-label">
+                      <form name="useremail" action="#" method="post">
+                          <input type="email" placeholder="Your email">
+                          
+                          <a href="#" class="arrow-btn"><span><i class="fa-solid fa-arrow-right"></i></span></a>
+                          
+                      </form>
+                    </div>
+                </div>
+                <div class="col-15">
+                    <span class="heading">about us</span>
+                    <ul class="footer-links">
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Our mission</a></li>
+                        <li><a href="#">How it started</a></li>
+                        <li><a href="#">Successes</a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <span class="heading">for creative</span>
+                    <ul class="footer-links">
+                        <li><a href="#">Explore positions</a></li>
+                        <li><a href="#">About suggestions</a></li>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">Getting started</a></li>
+                        <li><a href="#">Wgich plan</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-20">
+                    <span class="heading">resources</span>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Userbase</a></li>
+                        <li><a href="#">Why pick us?</a></li>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">Getting Plan</a></li>
+                        <li><a href="#">Wgich plan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border">
+          <div class="container footer-bottom">                
+              <span>copyright &copy; 2021 by <a href="index.html">jobspot.net.</a> All rights reserved.</span>
+          </div>
+        </div>
+    </footer>  
+
+  
+   
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          320: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        575: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        650: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        767: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        991: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        1023: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+        1199: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+      });
+    </script>
+     
+    <!---- JQUERY LINK ---->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+
+    
+
+    <!------  CUSTOM JS  ---->
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Find | Job List</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-------  CUSTOM CSS LINK  ------>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-------  FONTAWESOME LINK  ------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <nav class="navbox">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="images/logo.png" alt="logo" /></a
+              >
+            </div>
+            <div class="navbar">
+              <ul class="navlinks">
+                <li><a href="index.html" class="cmn">Home</a></li>
+                <li><a href="joblist.html" class="cmn active no-hover">Job list</a></li>
+                <li><a href="contact.html" class="cmn">Contact</a></li>
+                <li><a href="jobapply.html" class="cmn">Apply</a></li>
+              </ul>
+            </div>
+
+            <!------------------   Toggle Menu   --------------------->
+            <div class="hamburger" id="hamburger">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <!---------------------------------------------------------->
+
+            <div class="signup">
+              <a href="account.html" class="usericon"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="register.html" target="_blank" class="register">Register</a>
+            <a href="account.html" target="_blank" class="login">Login</a>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner banner1">
+            <div class="container-fluid">
+                <div class="banner-content">
+                    <div>
+                        <h1>Job List</h1>
+                        <span>Job duties, Job responsibilities, and skill required</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-filter">
+            <div class="container">
+                 <div class="filter-content">
+                    <span class="job-result">
+                        All 7,608 jobs found
+                    </span>
+                    <div class="filter">
+                        <span class="sort">Sort by</span>
+                        <div class="filter-option">
+                            <div class="filter-box">
+                                <select id="category" name="category">
+                                    <option value="recently added">Recently added</option>
+                                    <option value="category">Category</option>
+                                    <option value="location">Location</option>
+                                    <option value="remote work">Remote work</option>
+                                </select>
+                            </div>
+                            <div class="filter-icon">
+                                <img src="images/filtericon.png" alt="filter icon">
+                            </div>
+                            <div class="square-menu">
+                            <img src="images/squareicon.png" alt="square menu">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jobs">
+                    <div class="job-card">
+                        <div class="icon">
+                            <img src="images/brand7.png" alt="company logo">
+                        </div>
+                        <div class="job-content">
+                            <h4 class="bold">Post-Room Operate</h4>
+                            <span>Via Tourt Design LTD</span>
+                            <ul>
+                                <li>
+                                  <i class="fa-solid fa-location-dot"></i>Wellesley Rd, London
+                                </li>
+                                <li><i class="fa-solid fa-filter"></i>Accountancy</li>
+                                <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="jobtype">
+                            <span>full time</span>
+                        </div> -->
+                    </div>
+                    <div class="job-card">
+                        <div class="icon">
+                            <img src="images/brand8.png" alt="company logo">
+                        </div>
+                        <div class="job-content">
+                            <h4 class="bold">Data Entry</h4>
+                            <span>Via Techno Inc.</span>
+                            <ul>
+                                <li>
+                                  <i class="fa-solid fa-location-dot"></i>Street 40/A, London
+                                </li>
+                                <li><i class="fa-solid fa-filter"></i>Data Entry</li>
+                                <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                              </ul>
+                        </div>
+                        <!-- <div class="jobtype">
+                            <span>full time</span>
+                        </div> -->
+                    </div>
+                    <div class="job-card">
+                        <div class="icon">
+                            <img src="images/brand9.png" alt="company logo">
+                        </div>
+                        <div class="job-content">
+                            <h4 class="bold">Graphic Designer</h4>
+                            <span>Via Devon Design</span>
+                            <ul>
+                                <li>
+                                  <i class="fa-solid fa-location-dot"></i>West Sight, USA
+                                </li>
+                                <li><i class="fa-solid fa-filter"></i>Graphics</li>
+                                <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                              </ul>
+                        </div>
+                    </div>
+                    <div class="job-card">
+                        <div class="icon">
+                            <img src="images/brand10.png" alt="company logo">
+                        </div>
+                        <div class="job-content">
+                            <h4 class="bold">Web Developer</h4>
+                            <span>Via MegaNews</span>
+                            <ul>
+                                <li>
+                                  <i class="fa-solid fa-location-dot"></i>San Fransisco, California
+                                </li>
+                                <li><i class="fa-solid fa-filter"></i>Development</li>
+                                <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job-card">
+                        <div class="icon">
+                            <img src="images/brand11.png" alt="company logo">
+                        </div>
+                        <div class="job-content">
+                            <h4 class="bold">Digital Marketor</h4>
+                            <span>Via AB Marketer LTD</span>
+                            <ul>
+                                <li>
+                                  <i class="fa-solid fa-location-dot"></i>Wellesley Rd, London
+                                </li>
+                                <li><i class="fa-solid fa-filter"></i>Marketing</li>
+                                <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job-card">
+                        <div class="icon">
+                            <img src="images/brand12.png" alt="company logo">
+                        </div>
+                        <div class="job-content">
+                            <h4 class="bold">UI/UX Designer</h4>
+                            <span>Via Design Hunter</span>
+                            <ul>
+                                <li>
+                                  <i class="fa-solid fa-location-dot"></i>Zns Rd, London
+                                </li>
+                                <li><i class="fa-solid fa-filter"></i>Accountancy</li>
+                                <li><i class="fa-solid fa-briefcase"></i>Freelance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="page-btn">First</a>
+                <ul>
+                    <li><a href="#" class="arrow arrowleft"><i class="fa-solid fa-caret-left"></i></a></li>
+                    <li><a href="#" class="number">1</a></li>
+                    <li><a href="#" class=" number page-active">2</a></li>
+                    <li><a href="#" class="number">3</a></li>
+                    <li><a href="#" class="number"><i class="fa-solid fa-ellipsis"></i></a></li>
+                    <li><a href="#" class="number">21</a></li>
+                    <li><a href="#" class="number">22</a></li>
+                    <li><a href="#" class="arrow arrowright"><i class="fa-solid fa-caret-right"></i></a></li>
+                </ul>
+                <a href="#" class="page-btn">Last</a>
+            </div>   
+            
+            <div class="find-job">
+                <div class="search position">
+                  <label for="designation">What are you looking for?</label>
+                  <select id="designation" name="designationlist">
+                    <option value="ui ux design">UI/UX design</option>
+                    <option value="frontend design">Frontend design</option>
+                    <option value="frontend development">Frontend development</option>                   
+                    <option value="digital marketing manager">Digital marketing manager</option>
+                    <option value="chartered accountant">Chartered accountant</option>
+                  </select>
+                </div>
+                <div class="search">
+                  <label for="category">Category</label>
+                  <select id="category" name="categorylist">
+                    <option value="design">Design</option>
+                    <option value="development">Development</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="accountancy">Accountancy</option>
+                  </select>
+                </div>
+                <div class="search-btn">
+                    <a href="#">Find Job</a>
+                </div>
+            </div> 
+                
+        </section> 
+    
+        <section class="newsletter newsletter2">
+            <div class="container">
+                <h2>Subscribe our newsletter for the daily update</h2>
+                <div class="subscription">
+                  <form name="subscribe" action="#" method="most">
+                    <label for="email" class="hidden">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email.....">
+                    <input type="submit" value="subscribe">
+                  </form>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="row">
+
+                <div class="col-45">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/footer-logo.png" alt="logo" /></a>
+                    </div>
+                    <span class="span">Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+                        faucibus quam
+                        aliquet.
+                        Egestas
+                        scelerisque nec gravida volutpat maecenas tempor. 
+                    </span>
+                    <div class="form-label">
+                      <form name="useremail" action="#" method="post">
+                          <input type="email" placeholder="Your email">
+                          
+                          <a href="#" class="arrow-btn"><span><i class="fa-solid fa-arrow-right"></i></span></a>
+                          
+                      </form>
+                    </div>
+                </div>
+                <div class="col-15">
+                    <span class="heading">about us</span>
+                    <ul class="footer-links">
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Our mission</a></li>
+                        <li><a href="#">How it started</a></li>
+                        <li><a href="#">Successes</a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <span class="heading">for creative</span>
+                    <ul class="footer-links">
+                        <li><a href="#">Explore positions</a></li>
+                        <li><a href="#">About suggestions</a></li>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">Getting started</a></li>
+                        <li><a href="#">Wgich plan</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-20">
+                    <span class="heading">resources</span>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Userbase</a></li>
+                        <li><a href="#">Why pick us?</a></li>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">Getting Plan</a></li>
+                        <li><a href="#">Wgich plan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border">
+          <div class="container footer-bottom">                
+              <span>copyright &copy; 2021 by <a href="index.html">jobspot.net.</a> All rights reserved.</span>
+          </div>
+        </div>
+    </footer> 
+
+    <!---- JQUERY LINK ---->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+    
+    <!------  CUSTOM JS  ---->
+    <script src="script.js"></script>
+</body>
+</html>

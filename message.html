@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Find | User message box</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+
+    <!-------  CUSTOM CSS LINK  ------>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    <div class="mssg-container">
+        <div class="mssg-box">
+            <h2>User Message Box</h2>
+            <div class="username">
+                <p><strong>First Name : </strong><span id="userfirstname"></span></p>
+                <p><strong>Last Name : </strong><span id="userlastname"></span></p>
+            </div>
+            <p><strong>Email : </strong><span id="useremail"></span></p>
+            <p><strong>Messsage : </strong><span id="usermessage"></span></p>
+        </div>
+    </div>
+    <script>
+        const firstname = localStorage.getItem("firstname");
+        const lastname = localStorage.getItem("lastname");
+        const email = localStorage.getItem("email");
+        const usermssg = localStorage.getItem("message");
+
+        document.getElementById("userfirstname").textContent = firstname;
+        document.getElementById("userlastname").textContent = lastname;
+        document.getElementById("useremail").textContent = email;
+        document.getElementById("usermessage").textContent = usermssg;
+    </script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Find | Contact</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-------  CUSTOM CSS LINK  ------>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-------  FONTAWESOME LINK  ------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbox">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" alt="logo" /></a
+            >
+          </div>
+          <div class="navbar">
+            <ul class="navlinks">
+              <li><a href="index.html" class="cmn">Home</a></li>
+              <li><a href="joblist.html" class="cmn">Job list</a></li>
+              <li><a href="contact.html" class="cmn active no-hover">Contact</a></li>
+              <li><a href="jobapply.html" class="cmn">Apply</a></li>
+            </ul>
+          </div>
+
+          <!------------------   Toggle Menu   --------------------->
+          <div class="hamburger" id="hamburger">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
+          <!---------------------------------------------------------->
+
+          <div class="signup">
+            <a href="account.html" class="usericon"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="register.html" target="_blank" class="register">Register</a>
+            <a href="account.html" target="_blank" class="login">Login</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner banner1">
+        <div class="container-fluid">
+          <div class="banner-content">
+            <div>
+              <h1>Job List</h1>
+              <span>Job duties, Job responsibilities, and skill required</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-form">
+        <div class="container">
+          <div class="row">
+            <div class="col50">
+              <div class="card">
+                <h3>Send us a message</h3>
+                <form action="#" method="post" name="mssgform" id="mssgform">
+                  <div class="form-top-input">
+                    <div class="name">
+                      <input type="text" placeholder="First name" name="firstname" id="firstname"/>
+                    </div>
+                    <div class="surname">
+                       <input type="text" placeholder="Last name" name="lastname" id="lastname"/>  
+                    </div>
+                  </div>
+                  <input type="email" placeholder="Email" id="email" name="email"/>
+                  <br />
+                  <textarea name="query" id="query" placeholder="Your message" rows="7"></textarea>
+                  <div class="">
+                     <input type="submit" value="Send Message" id="btn" class="form-btn">
+                  </div>
+                </form>
+                <!-- <div class="submit">
+                  <a href="#" class="form-btn">Send Message</a> 
+                  <input type="submit" value="Send Message" id="btn" class="form-btn"> 
+                </div> -->
+              </div>
+            </div>
+            <div class="col50">
+              <div class="card">
+                <div class="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.759515097289!2d-74.07896532483888!3d40.613129243663955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fab2fdf9229%3A0x7eddc371b5d97f58!2s40%20Bell%20St%2C%20Staten%20Island%2C%20NY%2010305%2C%20USA!5e0!3m2!1sen!2sin!4v1746422992172!5m2!1sen!2sin"
+                    width="500"
+                    height="400"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-support">
+          <div class="container">
+              <div class="row">
+                  <div class="col33">
+                     <div class="card">
+                        <div class="contact-icon">
+                          <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <div class="contact-details">
+                            <span class="h3-heading">Address</span>
+                            <ul>
+                               <li><a href="#">40 Bell Street, New York, 10019</a></li>
+                               <li><a href="#">1344 Bernardo Street, Polk City ,33868</a></li>
+                            </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col33">
+                    <div class="card">
+                      <div class="contact-icon">
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
+                      </div>
+                      <div class="contact-details">
+                        <span class="h3-heading">Contact</span>
+                        <ul>
+                           <li><a href="#">212-247-3135</a></li>
+                           <li><a href="mailto:anymail@gmail.com">anymail@gmail.com</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col33">
+                    <div class="card">
+                      <div class="contact-icon">
+                        <a href="#"><i class="fa-solid fa-clock"></i></a>
+                      </div>
+                      <div class="contact-details">
+                        <span class="h3-heading">Open Hour</span>
+                        <ul>
+                           <li><a href="#">Monday - Friday : 09:00-20:00</a></li>
+                           <li><a href="#">Sunday & Saturday : 10:30 - 22:00</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-top">
+        <div class="row">
+          <div class="col-45">
+            <div class="footer-logo">
+              <a href="index.html"
+                ><img src="images/footer-logo.png" alt="logo"></a>
+            </div>
+            <span class="span"
+              >Lorem ipsum dolor sit amet consectetur. Tellus ut gravida
+              faucibus quam aliquet. Egestas scelerisque nec gravida volutpat
+              maecenas tempor.
+            </span>
+            <div class="form-label">
+              <form name="useremail" action="#" method="post">
+                <input type="email" placeholder="Your email" />
+
+                <a href="#" class="arrow-btn"
+                  ><span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </form>
+            </div>
+          </div>
+          <div class="col-15">
+            <span class="heading">about us</span>
+            <ul class="footer-links">
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Our mission</a></li>
+              <li><a href="#">How it started</a></li>
+              <li><a href="#">Successes</a></li>
+            </ul>
+          </div>
+          <div class="col-20">
+            <span class="heading">for creative</span>
+            <ul class="footer-links">
+              <li><a href="#">Explore positions</a></li>
+              <li><a href="#">About suggestions</a></li>
+              <li><a href="#">How it works?</a></li>
+              <li><a href="#">Getting started</a></li>
+              <li><a href="#">Wgich plan</a></li>
+            </ul>
+          </div>
+          <div class="col-20">
+            <span class="heading">resources</span>
+            <ul class="footer-links">
+              <li><a href="#">Our Userbase</a></li>
+              <li><a href="#">Why pick us?</a></li>
+              <li><a href="#">How it works?</a></li>
+              <li><a href="#">Getting Plan</a></li>
+              <li><a href="#">Wgich plan</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="border">
+        <div class="container footer-bottom">
+          <span
+            >copyright &copy; 2021 by <a href="index.html">jobspot.net.</a> All rights
+            reserved.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!---- JQUERY LINK ---->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+    <!------  CUSTOM JS  ---->
+    <script src="script.js"></script>
+  </body>
+</html>
